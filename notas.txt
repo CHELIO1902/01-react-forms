@@ -1,0 +1,25 @@
+react router:
+nos ayuda a solo actualizar los componentes que necesitamos
+
+SPA: Single Page Aplication
+
+inmutabilidad: es cuando un dato u objeto creado no deba de ser cambiado, si se quiere modificar se crea una copia con los datos modificados
+
+mutabilidad: es lo contrario, la capacidad que tienen las cosas para cambiar el valor o estado 
+
+useRef: hook de ract
+utilizado para obtener una referencia a los datos de un objeto con informacion mutable
+caracteristicas
+-los datos son persistentes en caso de que se re-renderise el componente
+-actualizar los datos de esta refrencia no causa el re-render
+
+
+para crear proyectos con vite
+npm init vite@latest 01-react-forms -- --template react
+
+
+usamos (rafce) para crear un esqueleto de un componente basico de react
+
+useEffect: arreglo de dependencias, se manda a llamar cada vez que cambia un estado, lo mas saludable es meterle un arreglo de dependencias vacio para que se ejecute solo una vez cuando ya termino de cargar la pagina. las llamadas a apis se hacen dentro de los use effect
+
+el .current es para mostrar el valor actual de la referencia del codigo seleccionado (input... etc)
