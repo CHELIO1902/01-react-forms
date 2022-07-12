@@ -15,7 +15,7 @@ caracteristicas
 
 
 para crear proyectos con vite
-npm init vite@latest 01-react-forms -- --template react
+npm init vite@latest 03-react-context -- --template react
 
 
 usamos (rafce) para crear un esqueleto de un componente basico de react
@@ -23,3 +23,6 @@ usamos (rafce) para crear un esqueleto de un componente basico de react
 useEffect: arreglo de dependencias, se manda a llamar cada vez que cambia un estado, lo mas saludable es meterle un arreglo de dependencias vacio para que se ejecute solo una vez cuando ya termino de cargar la pagina. las llamadas a apis se hacen dentro de los use effect
 
 el .current es para mostrar el valor actual de la referencia del codigo seleccionado (input... etc)
+
+
+investigar Redux y aprenderlo para entrevistas
