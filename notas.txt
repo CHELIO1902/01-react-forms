@@ -15,7 +15,26 @@ caracteristicas
 
 
 para crear proyectos con vite
-npm init vite@latest 03-react-context -- --template react
+npm init vite@latest 04-react-auth -- --template react
+npm i vite@2.9.9
+
+npm i standard -D {
+  configuracion estandar para EsLint dentro del proyecto,
+  es la configuracion de comunidad para JS
+} lo siguiente es poner la configuracion en el packaje.json{
+  (copiar de aqui --> "eslintConfig": {
+    "extends": [
+      "./node_modules/standard/eslintrc.json"
+    ]
+  }<-- hasta aqui)
+}
+
+ // Configuro Alias para mis Carpetas
+  resolve: {
+    alias: {
+      '@': path.resolve(__dirname, './src')
+    }
+  }
 
 
 usamos (rafce) para crear un esqueleto de un componente basico de react
@@ -26,3 +45,22 @@ el .current es para mostrar el valor actual de la referencia del codigo seleccio
 
 
 investigar Redux y aprenderlo para entrevistas
+
+
+configuracion de slint:
+"eslintConfig": {
+    "extends": [
+      "./node_modules/standard/eslintrc.json"
+    ]
+  }
+
+=====================================================
+configuracion de alias para las carpetas:
+import path from 'path'
+
+resolve: {
+    alias: {
+      '@': path.resolve(__dirname, './src')
+    }
+  }
+===========================================
